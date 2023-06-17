@@ -1,0 +1,45 @@
+#resu-form{
+
+
+}
+
+#resu-template{
+
+    display: none;
+}
+
+.myimg{
+    
+    width: 200px;
+    border-radius: 50%;
+    width: 200px;
+}
+
+.background{
+
+    background-color: #323b4c;
+    
+}
+
+.container{
+    color: black;
+
+
+}
+
+.container0{
+    color:whitesmoke;
+}
+
+
+.container1{
+
+    background-color: brown;
+    margin: auto;
+
+}
+
+body{
+
+   background-color: whitesmoke;
+}
