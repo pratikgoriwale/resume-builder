@@ -51,7 +51,14 @@ function generatecv() {
     let objectiveT = document.getElementById("objectiveT");
     objectiveT.innerHTML = ObjectiveField;
 
-    
+    let HobbiesField  = document.getElementById("HobbiesField").value;
+    let hobbiesT = document.getElementById("hobbiesT");
+    hobbiesT.innerHTML = HobbiesField;
+
+    let SkillsetField  = document.getElementById("SkillsetField").value;
+    let skillsT = document.getElementById("skillsT");
+    skillsT.innerHTML = SkillsetField;
+
     
     let weField  = document.getElementsByClassName("weField");
     let str = ""
