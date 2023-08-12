@@ -123,4 +123,3 @@ function printcv() {
  
     window.print()
 }
-
