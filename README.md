@@ -1,9 +1,14 @@
-# resume-builder
-$$ The User Interface for the user to enter their details $$
-![WhatsApp Image 2023-10-19 at 23 10 00_626edcbc](https://github.com/pratik1of1/resume-builder/assets/70435286/324422a0-abee-4ea9-be87-31f1aa7d1d0c)
+# Resume-builder 💻🪄
+The User Interface for the user to enter their details 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-$$ Sample output of the Resume the we can create with this website $$
-![WhatsApp Image 2023-10-19 at 23 16 09_df547388](https://github.com/pratik1of1/resume-builder/assets/70435286/0cc353c7-dcf6-4b9c-b9f8-9e2ce525ec74)
+![WhatsApp Image 2023-10-19 at 23 10 00_1cffddf4](https://github.com/pratik1of1/resume-builder/assets/70435286/68071279-9c2a-45d5-88a8-101eb45a6d29)
+
+ Sample output of the Resume the we can create with this website 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+![WhatsApp Image 2023-10-19 at 23 16 09_e21bdcb9](https://github.com/pratik1of1/resume-builder/assets/70435286/dca0c9d6-750d-4915-9c0c-4c1203a86613)
 
 
+******************************
 By Pratik :)
+******************************
