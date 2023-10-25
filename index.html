@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="style.css">
     <title>Resume_Builder</title>
 </head>
-<body>
+<body style="background-color: whitesmoke;">
+    
         <div class="container" id="resu-form">
             <h1 class="text-center">Resume_Generator</h1>
             <p class="text-center"></p>
@@ -85,9 +86,16 @@
                         <textarea placeholder="Enter Here" class="form-control weField" rows="3"></textarea>
                         
                         <div class="container text-center mt-2" id="weAddButton">
-                            <button  onclick="myfunction1()" class="btn btn-primary btn-sm">Add</button>
+                            <!-- <button  onclick="myfunction1()" class="btn btn-primary btn-sm">Add</button> -->                            
+                            <!-- <a href="#" class="btn" onclick="myfunction1()">Add</a> -->
+                            
+                            <button class="btn" type="button" onclick="myfunction1()" style="margin-left: 15rem;">
+                            <span class="button__text">Add </span>
+                            <span class="button__icon"><svg class="svg" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><line x1="12" x2="12" y1="5" y2="19"></line><line x1="5" x2="19" y1="12" y2="12"></line></svg></span>
+                            </button>
                             
                         </div>
+                        
                     </div>
 
 
@@ -96,14 +104,22 @@
                         <textarea placeholder="Enter Here" class="form-control aqfield" rows="3"></textarea>
                         
                         <div class="container text-center mt-2" id="aqAddButton">
-                            <button onclick="myfunction2()" class= "btn btn-primary btn-sm">Add</button>
-
+                            
+                            <button class="btn" type="button" onclick="myfunction2()" style="margin-left: 15rem;">
+                                <span class="button__text">Add </span>
+                                <span class="button__icon"><svg class="svg" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><line x1="12" x2="12" y1="5" y2="19"></line><line x1="5" x2="19" y1="12" y2="12"></line></svg></span>
+                                </button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="container text-center mt-4">
-                <button class="btn btn-primary btn-lg" onclick="generatecv()">Generate CV</button>
+                <!-- <button class="btn btn-primary btn-lg" onclick="generatecv()">Generate CV</button> -->
+                <button type="button" class="button" onclick="generatecv()">
+                    <div class="button-top">Generate Resume</div>
+                    <div class="button-bottom"></div>
+                    <div class="button-base"></div>
+                  </button>
             </div>
 
 
@@ -239,6 +255,7 @@
                         <button onclick="printcv()" class="btn container1" style="color:whitesmoke;">
                             Print Resume
                         </button>
+                        
                     </div>
 
                 </div>
